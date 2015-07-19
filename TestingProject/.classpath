@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/servlet-api-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-alpn-server-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-annotations-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-client-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-continuation-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-deploy-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-http-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-infinispan-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-io-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-jaas-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-jaspi-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-jmx-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-jndi-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-nosql-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-plus-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-proxy-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-quickstart-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-rewrite-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-schemas-3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-security-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-server-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-servlet-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-servlets-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-util-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-webapp-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/jetty-xml-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/cdi-core-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/cdi-servlet-9.3.0.v20150612.jar"/>
+	<classpathentry kind="lib" path="/Users/Henry/Documents/dev/jetty-distribution-9.3.0.v20150612/lib/cdi-websocket-9.3.0.v20150612.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,10 +1,17 @@
 package home.testapp;
 
-public class HelloWorld {
+import org.eclipse.jetty.server.Server;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World!!!");
+public class HelloWorld {
+	
+
+
+	public static void main(String[] args) throws Exception{
+		
+	        Server server = new Server(8800);
+	        server.start();
+	        server.dumpStdErr();
+	        server.join();
 	}
 
 }
