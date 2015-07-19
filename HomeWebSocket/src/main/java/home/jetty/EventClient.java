@@ -1,5 +1,5 @@
 
-package org.eclipse.jetty.demo;
+package home.jetty;
 
 import java.net.URI;
 

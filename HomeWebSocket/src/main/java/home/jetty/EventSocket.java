@@ -1,4 +1,4 @@
-package org.eclipse.jetty.demo;
+package home.jetty;
 
 import javax.websocket.ClientEndpoint;
 import javax.websocket.CloseReason;

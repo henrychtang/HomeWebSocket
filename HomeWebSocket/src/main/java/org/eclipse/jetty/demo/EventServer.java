@@ -1,4 +1,4 @@
-package home.jetty;
+package org.eclipse.jetty.demo;
 
 import javax.websocket.server.ServerContainer;
 
@@ -11,7 +11,6 @@ public class EventServer
 {
     public static void main(String[] args)
     {
-    	System.out.println("Define sever port 8080 and context /");
         Server server = new Server();
         ServerConnector connector = new ServerConnector(server);
         connector.setPort(8080);
@@ -28,15 +27,14 @@ public class EventServer
 
         try
         {
-        	System.out.println("Define ServerContainer");
-        	// Initialize javax.websocket layer
+            // Initialize javax.websocket layer
             ServerContainer wscontainer = WebSocketServerContainerInitializer.configureContext(context);
             wscontainer.setAsyncSendTimeout(0);
             wscontainer.setDefaultMaxSessionIdleTimeout(0);
             // Add WebSocket endpoint to javax.websocket layer
             wscontainer.addEndpoint(EventSocket.class);
             wscontainer.addEndpoint(home.websocket.DeviceWebSocketServer.class);
-            
+            System.out.println("Starting WebSocket...");
             server.start();
             server.dump(System.err);
             server.join();
