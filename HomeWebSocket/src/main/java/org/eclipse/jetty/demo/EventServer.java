@@ -11,6 +11,7 @@ public class EventServer
 {
     public static void main(String[] args)
     {
+    	System.out.println("Define sever port 8080 and context /");
         Server server = new Server();
         ServerConnector connector = new ServerConnector(server);
         connector.setPort(8080);
@@ -27,7 +28,8 @@ public class EventServer
 
         try
         {
-            // Initialize javax.websocket layer
+        	System.out.println("Define ServerContainer");
+        	// Initialize javax.websocket layer
             ServerContainer wscontainer = WebSocketServerContainerInitializer.configureContext(context);
             wscontainer.setAsyncSendTimeout(0);
             wscontainer.setDefaultMaxSessionIdleTimeout(0);
