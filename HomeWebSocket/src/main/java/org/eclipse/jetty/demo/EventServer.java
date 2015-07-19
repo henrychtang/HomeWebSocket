@@ -34,7 +34,7 @@ public class EventServer
             // Add WebSocket endpoint to javax.websocket layer
             wscontainer.addEndpoint(EventSocket.class);
             wscontainer.addEndpoint(home.websocket.DeviceWebSocketServer.class);
-
+            System.out.println("Starting WebSocket...");
             server.start();
             server.dump(System.err);
             server.join();
